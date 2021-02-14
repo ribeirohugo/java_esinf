@@ -4,7 +4,7 @@
 
 [Ver código Java](../src/e2020_recurso/ex1.java)
 
-## <a name="exercicio2">Exercício 2</a>
+## Exercício 2
 
 a) O método recebe um array de ``Integer`` ordenados ascendentemente e permite verificar quantos desses elementos são
 menores que um dado Integer x.
