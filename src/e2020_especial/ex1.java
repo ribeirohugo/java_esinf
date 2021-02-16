@@ -62,7 +62,7 @@ public class ex1 {
      */
     public static void main(String[] args) {
         Double valor = 30.63;
-        
+        System.out.println("Valor = €"+valor);
         Map<Integer, List<String>> map = converteValorEmMoedas(valor);
         System.out.println(map);
     }
