@@ -19,3 +19,7 @@ pode ser de:
 - O(1) - se o Set não tiver elementos e se a _string_ mais extensa tiver 1 caracter.
 - O(n) - se o Set só tiver um elemento ou se todos os elementos tiverem apenas 1 caracter.
 - O(n^2) - nos restantes casos.
+
+## Exercício 3
+
+[Ver código Java](../src/e2020_normal/ex3.java)
