@@ -21,3 +21,7 @@ vez que irá retornar de imediato um valor nas seguintes condições: ``if (a[n-
 
 Caso contrário o algoritmo irá iterar os restantes valores do array através do ciclo ``while (l<u)``, atingindo no pior
 dos casos a complexidade de O(n-1).
+
+## Exercício 3
+
+[Ver código Java](../src/e2020_recurso/ex3.java)
