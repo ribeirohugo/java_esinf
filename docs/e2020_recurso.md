@@ -25,3 +25,7 @@ dos casos a complexidade de O(n-1).
 ## Exercício 3
 
 [Ver código Java](../src/e2020_recurso/ex3.java)
+
+## Exercício 5
+
+[Ver código Java](../src/e2020_recurso/ex5.java)
