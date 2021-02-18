@@ -23,3 +23,7 @@ pode ser de:
 ## Exercício 3
 
 [Ver código Java](../src/e2020_normal/ex3.java)
+
+## Exercício 5
+
+[Ver código Java](../src/e2020_normal/ex5.java)
