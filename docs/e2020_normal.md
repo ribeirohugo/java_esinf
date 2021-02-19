@@ -20,6 +20,8 @@ pode ser de:
 - O(n) - se o Set só tiver um elemento ou se todos os elementos tiverem apenas 1 caracter.
 - O(n^2) - nos restantes casos.
 
+[Ver código Java](../src/e2020_normal/ex2.java)
+
 ## Exercício 3
 
 [Ver código Java](../src/e2020_normal/ex3.java)
