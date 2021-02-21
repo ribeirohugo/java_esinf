@@ -3,6 +3,7 @@ Auto-proposta de resolução de exercícios de exame da unidade curricular de ES
 
 ## Exame 2021 - Época Normal
 - [Exercício 1](/src/e2021_normal/ex1.java)
+- [Exercício 3](/src/e2021_normal/ex3.java)
 
 ## Exame 2020 - Época Normal
 
