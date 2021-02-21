@@ -21,27 +21,39 @@ public class ex1 {
         
         valor=valor*100;
         int valorCents = valor.intValue();
-        int moedas;
+        int moedas, divisor;
         String coin;
         
         while(valorCents != 0) {
             if(valorCents>=200) {
-                moedas = valorCents / 200;
+                divisor = 200;
                 coin = "2eur";
-                valorCents%=200;
                 
             } else {
-                if(valorCents>=20) {
-                    moedas = valorCents / 20;
-                    coin = "20cent";
-                    valorCents%=20;
-
+                if(valorCents>=100) {
+                    divisor = 100;
+                    coin = "1eur";
+                    
                 } else {
-                    moedas = valorCents;
-                    coin = "1cent";
-                    valorCents%=valorCents;
+                    if(valorCents>=20) {
+                        divisor = 20;
+                        coin = "20cent";
+
+                    } else {
+                        if(valorCents>=5) {
+                            divisor = 5;
+                            coin = "5cent";
+                            
+                        } else {
+                            divisor = 1;
+                            coin = "1cent";
+                        }
+                    }
                 }
             }
+            
+            moedas = valorCents / divisor;
+            valorCents%=divisor;
             
             if(map.containsKey(moedas)) {
                List<String> lista = map.get(moedas);
@@ -61,7 +73,7 @@ public class ex1 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Double valor = 30.63;
+        Double valor = 50.73;
         System.out.println("Valor = €"+valor);
         Map<Integer, List<String>> map = converteValorEmMoedas(valor);
         System.out.println(map);
