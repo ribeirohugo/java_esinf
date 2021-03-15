@@ -26,3 +26,4 @@ Auto-proposta de resolução de exercícios de exame da unidade curricular de ES
 ## Exame 2019- Época Recurso
 - [Exercício 1](/src/e2019_recurso/ex1.java)
 - [Exercício 3](/src/e2019_recurso/ex3.java)
+- [Exercício 5](/src/e2019_recurso/ex5.java)
