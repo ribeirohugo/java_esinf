@@ -45,7 +45,7 @@ public class ex5<K, V> extends HeapPriorityQueue<K,V> {
     public static void main(String[] args) {
         Integer[] values = {20,15,10,13,8,17,40,50,30,7};
         Integer[] keys = new Integer[values.length];
-        HeapPriorityQueue<Integer, Integer> instance = new HeapPriorityQueue();
+        ex5 instance = new ex5();
         
         for(int i = 0; i<values.length; i++) {
             keys[i] = new Integer(i);

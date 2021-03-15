@@ -25,8 +25,6 @@ public class ex5<K, V> extends HeapPriorityQueue<K,V> {
             level++;
         }
         
-        
-        
         int aux=level;
         int min=1;
         int max=1;

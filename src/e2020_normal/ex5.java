@@ -78,7 +78,7 @@ public class ex5<K, V> extends HeapPriorityQueue<K,V>  {
         System.out.println("Heap1 = "+heap1.toString());
         System.out.println("Heap2 = "+heap2.toString());
         
-        HeapPriorityQueue<Integer, Integer> instance = new ex5();
+        ex5 instance = new ex5();
         HeapPriorityQueue<Integer, String> heapResult = instance.mergeHeaps(heap1,heap2);
         
         System.out.println(heapResult.toString());
